@@ -68,8 +68,6 @@ id doSomethingWithInt(id self, SEL _cmd, int aInt){}
 ```
 那Cocoa在什么场景下会使用这些方法呢？Core Data用得很多。NSManagedObjects有许多在运行时添加的属性用来处理get/set属性和关系。那如果Model在运行时被改变了呢？
 
-----
-
 ## Demo 演示步骤
 ### 第一步 在 Example 示例动物中选择一个，点击“activation”
 下面的提示语会变成对应动物的叫声。
