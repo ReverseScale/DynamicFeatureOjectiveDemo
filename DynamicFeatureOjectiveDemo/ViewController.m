@@ -57,6 +57,7 @@
 
     [self dynamicFeature];
 }
+
 - (void)dynamicFeature {
     [[NSNotificationCenter defaultCenter] addObserverForName:@"Cat" object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
         self.sayLabel.text = @"Miao miao~~";

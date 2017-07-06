@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251D5BFABAAB503DF0B14D70 /* libPods-DynamicFeatureOjectiveDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A62C025128A39525577718 /* libPods-DynamicFeatureOjectiveDemoUITests.a */; };
 		343A08321EC54A6100D8FF18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A08311EC54A6100D8FF18 /* main.m */; };
 		343A08351EC54A6100D8FF18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A08341EC54A6100D8FF18 /* AppDelegate.m */; };
 		343A08381EC54A6100D8FF18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A08371EC54A6100D8FF18 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		343A08401EC54A6100D8FF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343A083E1EC54A6100D8FF18 /* LaunchScreen.storyboard */; };
 		343A084B1EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A084A1EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoTests.m */; };
 		343A08561EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A08551EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoUITests.m */; };
+		9C05EB4DB375B11DDB25650A /* libPods-DynamicFeatureOjectiveDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF601F29925FD43A8F454AC8 /* libPods-DynamicFeatureOjectiveDemoTests.a */; };
+		D3DCC3B5CD845C11318C5E97 /* libPods-DynamicFeatureOjectiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756B6DDEF73F46D40505A47E /* libPods-DynamicFeatureOjectiveDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E104BDBB593569D6D6B68FC /* Pods-DynamicFeatureOjectiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemo/Pods-DynamicFeatureOjectiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		343A082D1EC54A6100D8FF18 /* DynamicFeatureOjectiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicFeatureOjectiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343A08311EC54A6100D8FF18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		343A08331EC54A6100D8FF18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		343A08511EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFeatureOjectiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343A08551EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicFeatureOjectiveDemoUITests.m; sourceTree = "<group>"; };
 		343A08571EC54A6100D8FF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527330DF5DBC937B02F7F811 /* Pods-DynamicFeatureOjectiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemo/Pods-DynamicFeatureOjectiveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5F4E0B9495E20E1FCFB5CB99 /* Pods-DynamicFeatureOjectiveDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoUITests/Pods-DynamicFeatureOjectiveDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		756B6DDEF73F46D40505A47E /* libPods-DynamicFeatureOjectiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicFeatureOjectiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		786461EE99E0D97BC572E46D /* Pods-DynamicFeatureOjectiveDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoTests/Pods-DynamicFeatureOjectiveDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		842DA303AB8E7BD2AAEA27F4 /* Pods-DynamicFeatureOjectiveDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoTests/Pods-DynamicFeatureOjectiveDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A62C025128A39525577718 /* libPods-DynamicFeatureOjectiveDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicFeatureOjectiveDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30DEB0A35CC1EF496F7B6D9 /* Pods-DynamicFeatureOjectiveDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFeatureOjectiveDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoUITests/Pods-DynamicFeatureOjectiveDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF601F29925FD43A8F454AC8 /* libPods-DynamicFeatureOjectiveDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicFeatureOjectiveDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DCC3B5CD845C11318C5E97 /* libPods-DynamicFeatureOjectiveDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C05EB4DB375B11DDB25650A /* libPods-DynamicFeatureOjectiveDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251D5BFABAAB503DF0B14D70 /* libPods-DynamicFeatureOjectiveDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				343A08491EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoTests */,
 				343A08541EC54A6100D8FF18 /* DynamicFeatureOjectiveDemoUITests */,
 				343A082E1EC54A6100D8FF18 /* Products */,
+				E8F5C6184F8E12B18346DE95 /* Pods */,
+				E643E02773C9775258CC67A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = DynamicFeatureOjectiveDemoUITests;
 			sourceTree = "<group>";
 		};
+		E643E02773C9775258CC67A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756B6DDEF73F46D40505A47E /* libPods-DynamicFeatureOjectiveDemo.a */,
+				EF601F29925FD43A8F454AC8 /* libPods-DynamicFeatureOjectiveDemoTests.a */,
+				C0A62C025128A39525577718 /* libPods-DynamicFeatureOjectiveDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8F5C6184F8E12B18346DE95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E104BDBB593569D6D6B68FC /* Pods-DynamicFeatureOjectiveDemo.debug.xcconfig */,
+				527330DF5DBC937B02F7F811 /* Pods-DynamicFeatureOjectiveDemo.release.xcconfig */,
+				842DA303AB8E7BD2AAEA27F4 /* Pods-DynamicFeatureOjectiveDemoTests.debug.xcconfig */,
+				786461EE99E0D97BC572E46D /* Pods-DynamicFeatureOjectiveDemoTests.release.xcconfig */,
+				5F4E0B9495E20E1FCFB5CB99 /* Pods-DynamicFeatureOjectiveDemoUITests.debug.xcconfig */,
+				D30DEB0A35CC1EF496F7B6D9 /* Pods-DynamicFeatureOjectiveDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343A085A1EC54A6100D8FF18 /* Build configuration list for PBXNativeTarget "DynamicFeatureOjectiveDemo" */;
 			buildPhases = (
+				1C4A2BB20C3076BCA4D53D3B /* [CP] Check Pods Manifest.lock */,
 				343A08291EC54A6100D8FF18 /* Sources */,
 				343A082A1EC54A6100D8FF18 /* Frameworks */,
 				343A082B1EC54A6100D8FF18 /* Resources */,
+				4485DE8C360B7FA99AB95896 /* [CP] Embed Pods Frameworks */,
+				76CC0586A10200C3748E7B78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343A085D1EC54A6100D8FF18 /* Build configuration list for PBXNativeTarget "DynamicFeatureOjectiveDemoTests" */;
 			buildPhases = (
+				89AB53F5D4587571ED6C0D0E /* [CP] Check Pods Manifest.lock */,
 				343A08421EC54A6100D8FF18 /* Sources */,
 				343A08431EC54A6100D8FF18 /* Frameworks */,
 				343A08441EC54A6100D8FF18 /* Resources */,
+				90221F72A4BCD48BBF7D0CD5 /* [CP] Embed Pods Frameworks */,
+				65B3C43724451366D0872C49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343A08601EC54A6100D8FF18 /* Build configuration list for PBXNativeTarget "DynamicFeatureOjectiveDemoUITests" */;
 			buildPhases = (
+				91242E86A316CC0D38DBA65B /* [CP] Check Pods Manifest.lock */,
 				343A084D1EC54A6100D8FF18 /* Sources */,
 				343A084E1EC54A6100D8FF18 /* Frameworks */,
 				343A084F1EC54A6100D8FF18 /* Resources */,
+				4A6294A706DCD5A4B93DEF6C /* [CP] Embed Pods Frameworks */,
+				6209E8A14411214A8F1B9D48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +256,7 @@
 				TargetAttributes = {
 					343A082C1EC54A6100D8FF18 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
 						ProvisioningStyle = Automatic;
 					};
 					343A08451EC54A6100D8FF18 = {
@@ -267,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C4A2BB20C3076BCA4D53D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4485DE8C360B7FA99AB95896 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemo/Pods-DynamicFeatureOjectiveDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6294A706DCD5A4B93DEF6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoUITests/Pods-DynamicFeatureOjectiveDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6209E8A14411214A8F1B9D48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoUITests/Pods-DynamicFeatureOjectiveDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B3C43724451366D0872C49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoTests/Pods-DynamicFeatureOjectiveDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CC0586A10200C3748E7B78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemo/Pods-DynamicFeatureOjectiveDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89AB53F5D4587571ED6C0D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90221F72A4BCD48BBF7D0CD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicFeatureOjectiveDemoTests/Pods-DynamicFeatureOjectiveDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91242E86A316CC0D38DBA65B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		343A08291EC54A6100D8FF18 /* Sources */ = {
@@ -424,8 +612,10 @@
 		};
 		343A085B1EC54A6100D8FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E104BDBB593569D6D6B68FC /* Pods-DynamicFeatureOjectiveDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -436,8 +626,10 @@
 		};
 		343A085C1EC54A6100D8FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527330DF5DBC937B02F7F811 /* Pods-DynamicFeatureOjectiveDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -448,6 +640,7 @@
 		};
 		343A085E1EC54A6100D8FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842DA303AB8E7BD2AAEA27F4 /* Pods-DynamicFeatureOjectiveDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemoTests/Info.plist;
@@ -460,6 +653,7 @@
 		};
 		343A085F1EC54A6100D8FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786461EE99E0D97BC572E46D /* Pods-DynamicFeatureOjectiveDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemoTests/Info.plist;
@@ -472,6 +666,7 @@
 		};
 		343A08611EC54A6100D8FF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4E0B9495E20E1FCFB5CB99 /* Pods-DynamicFeatureOjectiveDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +678,7 @@
 		};
 		343A08621EC54A6100D8FF18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30DEB0A35CC1EF496F7B6D9 /* Pods-DynamicFeatureOjectiveDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DynamicFeatureOjectiveDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -511,6 +707,7 @@
 				343A085C1EC54A6100D8FF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		343A085D1EC54A6100D8FF18 /* Build configuration list for PBXNativeTarget "DynamicFeatureOjectiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +716,7 @@
 				343A085F1EC54A6100D8FF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		343A08601EC54A6100D8FF18 /* Build configuration list for PBXNativeTarget "DynamicFeatureOjectiveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +725,7 @@
 				343A08621EC54A6100D8FF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
