@@ -4,7 +4,10 @@
 
 ### 我的技术博客：https://reversescale.github.io 欢迎来踩
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-7-4/18044750.jpg)
+| 名称 |1.列表页 |2.展示页 |
+| ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/25202104.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/97981882.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | 使用DynamicFeature实现 |
 
 ## Requirements 要求
 * iOS 7+
